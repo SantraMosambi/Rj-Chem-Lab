@@ -4,11 +4,12 @@ import * as AiIcons from "react-icons/ai";
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from "react-icons/ri";
 import * as GrIcons from "react-icons/gr";
+import * as SiIcons from "react-icons/si";
 
 export const SidebarData = [{
         title: "Chemicals",
         path: "/chemicals",
-        icons: < FaIcons.FaFlask / > ,
+        icon: < FaIcons.FaFlask / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
         subnav: [{
@@ -34,13 +35,13 @@ export const SidebarData = [{
     {
         title: "Glassware",
         path: "/glassware",
-        icons: < RiIcons.RiTestTubeLine / > ,
+        icon: < RiIcons.RiTestTubeLine / > ,
     },
 
     {
         title: "Quotation",
         path: "/quotation",
-        icons: < IoIcons.IoIosPaper / > ,
+        icon: < IoIcons.IoIosPaper / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
         subnav: [{
@@ -60,12 +61,12 @@ export const SidebarData = [{
     {
         title: "Instrument",
         path: "/instrument",
-        icons: < GrIcons.GrDocumentTest / > ,
+        icon: < SiIcons.SiBandlab / > ,
     },
     {
         title: "Stock",
         path: "Stock",
-        icons: < AiIcons.AiOutlineFieldNumber / > ,
+        icon: < AiIcons.AiOutlineFieldNumber / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
         subnav: [{
@@ -94,6 +95,6 @@ export const SidebarData = [{
     {
         title: "Daily Issue Register",
         path: "/dir",
-        icons: < IoIcons.IoIosPaper / > ,
+        icon: < IoIcons.IoIosPaper / > ,
     }
 ];
