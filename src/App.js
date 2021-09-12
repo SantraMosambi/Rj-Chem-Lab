@@ -1,22 +1,23 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Overview from './pages/Overview';
-// import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
-// import Team from './pages/Team';
+import Chemical from './pages/Chemical';
+import Glassware from './pages/Glassware';
+import Quotation from './pages/Quotation';
+
+ 
 
 function App() {
   return (
-    <Router>
+     <Router>
       <Sidebar />
-      {/* <Switch>
-        <Route path='/overview' exact component={Overview} />
-        <Route path='/reports' exact component={Reports} />
-        <Route path='/chemical/reports1' exact component={ReportsOne} />
-        <Route path='/reports/reports2' exact component={ReportsTwo} />
-        <Route path='/reports/reports3' exact component={ReportsThree} />
-        <Route path='/team' exact component={Team} />
-      </Switch> */}
+       <Switch>
+        <Route path='/chemical' exact component={Chemical} />
+        <Route path='/glassware' exact component={Glassware} />
+        {/* <Route path='/quotation' exact component={Quotation} /> */}
+      
+     
+      </Switch> 
     </Router>
   );
 }

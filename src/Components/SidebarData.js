@@ -3,7 +3,6 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from "react-icons/ri";
-import * as GrIcons from "react-icons/gr";
 import * as SiIcons from "react-icons/si";
 
 export const SidebarData = [{
@@ -12,7 +11,7 @@ export const SidebarData = [{
         icon: < FaIcons.FaFlask / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
-        subnav: [{
+        subNav: [{
                 title: "Organic",
                 path: "/chemicals/organic",
             },
@@ -44,12 +43,12 @@ export const SidebarData = [{
         icon: < IoIcons.IoIosPaper / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
-        subnav: [{
+        subNav: [{
                 title: "Organic",
                 path: "/quotation/organic",
             },
             {
-                title: "InOrganic",
+                title: "In-Organic",
                 path: "/quotation/inorganic",
             },
             {
@@ -69,7 +68,7 @@ export const SidebarData = [{
         icon: < AiIcons.AiOutlineFieldNumber / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
-        subnav: [{
+        subNav: [{
                 title: "Organic",
                 path: "/stock/organic",
             },
