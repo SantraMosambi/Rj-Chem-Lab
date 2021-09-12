@@ -5,7 +5,14 @@ import * as IoIcons from 'react-icons/io';
 import * as RiIcons from "react-icons/ri";
 import * as SiIcons from "react-icons/si";
 
-export const SidebarData = [{
+export const SidebarData = [
+
+    {
+        title: "Glassware",
+        path: "/glassware",
+        icon: < RiIcons.RiTestTubeLine / > ,
+    },
+    {
         title: "Chemicals",
         path: "/chemicals",
         icon: < FaIcons.FaFlask / > ,
@@ -32,12 +39,6 @@ export const SidebarData = [{
     },
 
     {
-        title: "Glassware",
-        path: "/glassware",
-        icon: < RiIcons.RiTestTubeLine / > ,
-    },
-
-    {
         title: "Quotation",
         path: "/quotation",
         icon: < IoIcons.IoIosPaper / > ,
@@ -52,8 +53,8 @@ export const SidebarData = [{
                 path: "/quotation/inorganic",
             },
             {
-                title: "Indicators",
-                path: "/quotation/indicators",
+                title: "Indicator",
+                path: "/quotation/indicator",
             },
         ],
     },

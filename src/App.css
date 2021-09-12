@@ -6,7 +6,8 @@
     font-family: 'Lato', sans-serif;
 }
 
-.glassware {
+.glassware,
+.quotation {
     display: flex;
     height: 90vh;
     align-items: center;
