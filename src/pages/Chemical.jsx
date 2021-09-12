@@ -1,6 +1,6 @@
 import React from 'react'
 
-const chemical = () => {
+export const chemical = () => {
     return (
         <div>
             <h1>chem bond</h1>
@@ -8,4 +8,36 @@ const chemical = () => {
     )
 }
 
-export default chemical
+
+
+export const Organic = () => {
+    return (
+      <div className='quotation'>
+        <h1>Reports/organic</h1>
+      </div>
+    );
+  };
+  
+  export const Inorganic = () => {
+    return (
+      <div className='quotation'>
+        <h1>Reports/inOrganic</h1>
+      </div>
+    );
+  };
+  
+  export const Msc = () => {
+    return (
+      <div className='quotation'>
+        <h1>Reports/Msc</h1>
+      </div>
+    );
+  };
+  
+  export const Indicator = () => {
+    return (
+      <div className='quotation'>
+        <h1>Reports/Indicators</h1>
+      </div>
+    );
+  };

@@ -13,6 +13,11 @@ export const SidebarData = [
         icon: < RiIcons.RiTestTubeLine / > ,
     },
     {
+        title: "Instrument",
+        path: "/instrument",
+        icon: < SiIcons.SiBandlab / > ,
+    },
+    {
         title: "Chemicals",
         path: "/chemicals",
         icon: < FaIcons.FaFlask / > ,
@@ -58,11 +63,7 @@ export const SidebarData = [
             },
         ],
     },
-    {
-        title: "Instrument",
-        path: "/instrument",
-        icon: < SiIcons.SiBandlab / > ,
-    },
+
     {
         title: "Stock",
         path: "Stock",
