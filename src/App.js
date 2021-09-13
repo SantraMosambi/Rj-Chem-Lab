@@ -6,7 +6,7 @@ import Glassware from './pages/Glassware';
 import Instrument from './pages/Instrument';
 
 import { Quotation, Organic, Inorganic, Indicator } from './pages/Quotation';
-// import { Chemical,Msc } from './pages/Chemical';
+import { Chemical,Msc } from './pages/Chemical';
  
 
 function App() {
@@ -25,9 +25,9 @@ function App() {
 {/*       
         <Route path='/chemical/organic' exact component={Organic} />
         <Route path='/chemical/Inorganic' exact component={Inorganic} />
-        <Route path='/chemical/msc' exact component={Msc} />
+        
         <Route path='/chemical/Indicator' exact component={Indicator} /> */}
-      
+      <Route path='/chemical/Msc' exact component={Msc} />
      
       </Switch> 
     </Router>
