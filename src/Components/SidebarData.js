@@ -24,7 +24,7 @@ export const SidebarData = [
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
         subNav: [{
-                title: "Organic",
+                title: "Orgaic",
                 path: "/chemicals/organic",
             },
             {
