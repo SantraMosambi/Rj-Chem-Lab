@@ -18,27 +18,27 @@ export const SidebarData = [
         icon: < SiIcons.SiBandlab / > ,
     },
     {
-        title: "Chemicals",
-        path: "/chemicals",
+        title: "Chemical",
+        path: "/chemical",
         icon: < FaIcons.FaFlask / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
         subNav: [{
-                title: "Orgaic",
-                path: "/chemicals/organic",
+                title: "Organic",
+                path: "/chemical/organic",
             },
             {
                 title: "InOrganic",
-                path: "/chemicals/inorganic",
+                path: "/chemical/inorganic",
             },
             {
                 title: "MSc",
-                path: "/chemicals/msc",
+                path: "/chemical/msc",
             },
 
             {
-                title: "Indicators",
-                path: "/chemicals/indicators",
+                title: "Indicator",
+                path: "/chemical/indicator",
             },
         ],
     },
@@ -66,7 +66,7 @@ export const SidebarData = [
 
     {
         title: "Stock",
-        path: "Stock",
+        path: "/stock",
         icon: < AiIcons.AiOutlineFieldNumber / > ,
         iconClosed: < RiIcons.RiArrowDownSFill / > ,
         iconOpen: < RiIcons.RiArrowUpSFill / > ,
@@ -85,7 +85,7 @@ export const SidebarData = [
 
             {
                 title: "Indicators",
-                path: "/stock/indicators",
+                path: "/stock/indicator",
             },
             {
                 title: "Glassware",

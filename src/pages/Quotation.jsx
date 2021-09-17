@@ -3,31 +3,31 @@ import React from 'react';
 export const Quotation = () => {
   return (
     <div className='quotation'>
-      <h1>Reports</h1>
+      <h1>Quotation</h1>
     </div>
   );
 };
 
-export const Organic = () => {
+export const Organics = () => {
   return (
     <div className='quotation'>
-      <h1>Reports/reports1</h1>
+      <h1>Quotation/organic</h1>
     </div>
   );
 };
 
-export const Inorganic = () => {
+export const Inorganics = () => {
   return (
     <div className='quotation'>
-      <h1>Reports/reports2</h1>
+      <h1>Quotation/inorganic</h1>
     </div>
   );
 };
 
-export const Indicator = () => {
+export const Indicators = () => {
   return (
     <div className='quotation'>
-      <h1>Reports/reports3</h1>
+      <h1>Quotation/indicator</h1>
     </div>
   );
 };

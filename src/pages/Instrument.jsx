@@ -3,7 +3,7 @@ import React from 'react'
 const Instrument = () => {
     return (
         <div className = 'glassware'>
-            <h1>Instu Mentals</h1>
+            <h1>Instumentals</h1>
         </div>
     )
 }

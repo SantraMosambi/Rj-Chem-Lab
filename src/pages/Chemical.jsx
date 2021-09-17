@@ -2,32 +2,40 @@ import React from 'react';
 
 export const Chemical = () => {
   return (
-    <div className='quotation'>
-      <h1>Reports</h1>
+    <div className='chemical' >
+      <h1>chemical</h1>
     </div>
   );
 };
 
-export const Ocrganic = () => {
+export const Organic = () => {
   return (
-    <div className='quotation'>
-      <h1>Reports/organic</h1>
+    <div className='chemical'>
+      <h1>chemical/organic</h1>
     </div>
   );
 };
 
-export const Icnorganic = () => {
+export const Inorganic = () => {
   return (
-    <div className='quotation'>
-      <h1>Reports/inorganic</h1>
+    <div className='chemical'>
+      <h1>chemical/inorganic</h1>
     </div>
   );
 };
 
-export const Icndicator = () => {
+export const Msc = () => {
   return (
-    <div className='quotation'>
-      <h1>Reports/indicator</h1>
+    <div className='chemical'>
+      <h1>chemical/Msc</h1>
+    </div>
+  );
+};
+
+export const Indicator = () => {
+  return (
+    <div className='chemical'>
+      <h1>chemical/indicator</h1>
     </div>
   );
 };
